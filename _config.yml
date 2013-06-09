@@ -1,0 +1,8 @@
+name:         Golden Meanie
+pygments:     true
+
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+future:       false
+permalink:    none

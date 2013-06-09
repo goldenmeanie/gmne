@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/alex/Sites/goldenmeanie.net",
+      "folder_exclude_patterns": ["_site"]
+		}
+	]
+}

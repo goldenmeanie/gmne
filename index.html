@@ -1,0 +1,19 @@
+---
+layout: default
+title: Golden Meanie
+---
+<section class="index">
+  <h2>Posts</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span>{{ post.date | date_to_string }}</span>
+        &raquo;
+        <a href="{{ post.url }}">
+          {{ post.title }}
+          <!-- <p class="excerpt">{{ post.excerpt }}</p> -->
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

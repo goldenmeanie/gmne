@@ -1,0 +1,258 @@
+@import "reset";
+@import "variables";
+@import "layout";
+
+// Web Fonts
+
+@font-face {
+  font-family: "Populaire Regular";
+  src: url("/fonts/populaire-reg.eot");
+  src: local("☺"),
+    url("/fonts/populaire-reg.woff") format("woff"),
+    url("/fonts/populaire-reg") format("opentype");
+}
+h1, h2, h3, h4, h5, h6 {
+  color: $alt-background;
+  font-family: Populaire Regular;
+}
+body {
+  text-align: left;
+}
+header {
+  padding: .25em .5em 2em;
+  h1 {
+    font-size: 5em;
+    margin: .25em 3% 0;
+  }
+  a {
+    color: $meanie;
+    text-decoration: none;
+    &:visited {
+      color: $meanie;
+    }
+    &:hover {
+      color: #fa0;
+    }
+  }
+}
+nav {
+  font-size: 1.25em;
+  margin: 1em 3% 0;
+  a {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: $meanie;
+    color: $alt-background;
+    display: inline-block;
+    font-family: Populaire Regular;
+    font-size: 1.1em;
+    margin-right: .25em;
+    padding: .15em .35em;
+    text-decoration: none;
+    &:visited {
+      color: $alt-background;
+    }
+    &:hover {
+      background: #fa0;
+      color: $alt-background;
+    }
+  }
+  .service:after {
+    content: " ›";
+  }
+  .twitter {
+    background: #45bff1;
+    color: #2a7895;
+  }
+  .dribbble {
+    background: #E86198;
+    color: #982E57;
+  }
+  .gimmebar {
+    background: #CE1C6F;
+    color: #F38FBD;
+  }
+  .pinboard {
+    background: #4482FF;
+    color: #B3CBFF;
+  }
+}
+.index {
+  margin: 1em 3% 5em;
+  h2 {
+    font-size: 3em;
+    margin-left: 4.45em;
+  }
+  li {
+    color: rgba(0, 0, 0, .2);
+    list-style: none;
+    font-family: Populaire Regular;
+    font-size: 2.5em;
+    // line-height: .75;
+    margin: .5em 0;
+    padding: 0;
+    span {
+      display: inline-block;
+      margin-right: .5em;
+      text-align: right;
+      width: 3.5em;
+    }
+    a {
+      color: $alt-background;
+      margin-left: .5em;
+      text-decoration: none;
+      &:hover {
+        color: #f60;
+      }
+    }
+  }
+  .excerpt {
+    display: none;
+  }
+}
+.bio {
+  margin: 1em 5% 5em;
+  p {
+    font-size: 1.5em;
+    line-height: 1.65;
+  }
+  a:link, a:visited {
+    background: #FFF4C3;
+    color: #24211c;
+    padding: .1em .2em;
+    text-decoration: none;
+  }
+  a:hover {
+    background: #FFEA8E;
+  }
+
+}
+.post {
+  // background: #efefef;
+  margin: 1em 3%;
+  padding-bottom: 5em;
+  text-align: left;
+  width: 94%;
+  h1 {
+    color: $alt-background;
+    font-size: 5em;
+    margin: 0;
+  }
+  h2 {
+    color: $alt-background;
+    font-size: 3em;
+    margin: 0 0 .1em;
+  }
+  p {
+    color: $alt-background;
+    font-family: georgia;
+    font-size: 1.5em;
+    line-height: 1.65em;
+    margin-top: 0;
+  }
+  a:link, a:visited {
+    background: #FFF4C3;
+    color: #24211c;
+    padding: .1em .2em;
+    text-decoration: none;
+  }
+  a:hover {
+    background: #FFEA8E;
+  }
+  .meta {
+    color: rgba(0, 0, 0, .2);
+    display: inline-block;
+  }
+  img {
+    width: 100%;
+  }
+}
+footer {
+  min-height: 20em;
+  padding: .1em 2% 1em;
+  nav {
+    margin: 1em 1.5%;
+  }
+  .bio {
+    margin: 1em 1.5%;
+    p {
+      color: #ffe684;
+      font-size: 1em;
+      margin: 0 0 1em;
+      max-width: 35em;
+    }
+  }
+}
+@media screen
+and (max-width: 320px),
+screen
+and (max-width: 568px)
+and (orientation: landscape) {
+  header {
+    padding: .25em .5em .25em;
+    h1 {
+      font-size: 3em;
+      margin: 0 3%;
+    }
+  }
+  .post .meta {
+    display: block;
+    font-size: .5em;
+  }
+  .index {
+    h2 {
+      margin-left: 3.5em;
+    }
+    li {
+      font-size: 2em;
+    }
+  }
+  nav a {
+    font-size: 1em;
+  }
+  footer .bio p {
+    width: 100%;
+  }
+}
+@media screen
+and (min-width: 640px) {
+  .index .excerpt {
+    display: block;
+    font-size: .65em;
+    margin: 0 0 0 8.1em;
+    padding: 0;
+  }
+  .bio {
+    margin: 1em 3% 5em;
+    p {
+      max-width: 35em;
+    }
+    a {
+
+    }
+  }
+  .post {
+    // width: 75%;
+    p {
+      max-width: 35em;
+    }
+    img {
+      max-width: 670px;
+    }
+  }
+
+}
+@media screen
+and (min-width: 1280px) {
+  .post {
+    p {
+      width: 50%;
+      max-width: 32em;
+    }
+    .img-block {
+      position: absolute;
+      left: 50%;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Sig File"
+published: false
+excerpt:
+---
+
+Do you recognize this dance?
+
+1. Receive form
+2. Print form
+3. Sign form
+4. Scan form
+5. Email form
+
+Really you should just copy and paste a signature into the document and send it back, right? I've had a signature image on my hard drive for years that I use to do just that.
+
+<img src="/images/2011-12-19-abe-froman.png" />
+
+I recently offered to make one for a friend. Only to realize, once I sat down to do it, that I'd forgotten how I made it the last time. If you're working in Photoshop or Illustrator it's a matter of scanning your signature and document in and then placing it in the composition and setting the layer transparency to multiply. But this doesn't work if you need to work in Word or some other, less capable, application. The file will bring a big white block background with it.
+
+<img src="/images/2011-12-19-abe-froman.gif" class="whiteout" />
+
+You could select the background (white) and delete it to approximate the effect but you're talking 1-bit GIF style transparency which looks awful if you are working in a textured or differently colored environment.
+
+<img src="/images/2011-12-19-abe-froman.gif" />
+
+So here's what I remembered a few minutes later.
+
+1. Scan in the signature and clean it up by adjusting the Levels and using the eraser if necessary.
+2. Make it grayscale.
+3. Cut it and paste it into a new Channel (and invert it).
+4. Then load that channel as a selection back in the blank canvas (you can invert the selection here if you forgot earlier)
+5. Fill it with your desired ink color.
+
+You'll now have a nice soft signature that you can lay down on anything and it will look legit. Save it as a 24-bit PNG with transparency on for maximum compatibility.
+
+<img src="/images/2011-12-19-abe-froman.png" />
