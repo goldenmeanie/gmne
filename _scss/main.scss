@@ -148,7 +148,7 @@ nav {
   width: 94%;
   h1 {
     color: $alt-background;
-    font-size: 5em;
+    font-size: 4.5em;
     margin: 0;
   }
   h2 {
@@ -168,7 +168,7 @@ nav {
     font-size: 2em;
     line-height: 1.25em;
     margin: .5em 0;
-    padding-left: 1em;
+    padding-left: .5em;
     position: relative;
   }
   a:link, a:visited {
@@ -225,6 +225,9 @@ and (orientation: landscape) {
       margin: 0 3%;
     }
   }
+  .post h1 {
+    line-height: 1em;
+  }
   .post .meta {
     display: block;
     font-size: .5em;
@@ -242,6 +245,12 @@ and (orientation: landscape) {
   }
   footer .bio p {
     width: 100%;
+  }
+}
+@media screen and (max-width: 568px)
+and (orientation: landscape) {
+  .post h1 {
+    font-size: 3em;
   }
 }
 @media screen
