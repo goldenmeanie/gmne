@@ -2,13 +2,8 @@
 layout: post
 title: Nerdfotainment
 published: true
-excerpt:
+excerpt: It’s a trap!
 ---
-
-
-
-Nerdfotainment (Sunday, March 16, 2008 2:14:00 PM
-
 
 Today I came across the [Nerdfotainment](http://www.randsinrepose.com/archives/2008/03/11/nerdfotainment.html) post at [Rands in Repose](http://www.randsinrepose.com).
 

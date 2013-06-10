@@ -151,6 +151,14 @@ nav {
     line-height: 1.65em;
     margin-top: 0;
   }
+  blockquote p {
+    border-left: .5em solid $meanie;
+    font-size: 2em;
+    line-height: 1.25em;
+    margin: .5em 0;
+    padding-left: 1em;
+    position: relative;
+  }
   a:link, a:visited {
     background: #FFF4C3;
     color: #24211c;

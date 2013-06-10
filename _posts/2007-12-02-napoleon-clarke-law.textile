@@ -1,9 +1,0 @@
----
-layout: post
-title: Napoleon-Clarke Law
-date: 2007-12-02
-excerpt:
----
-
-bq(quote). Any sufficiently advanced incompetence is indistinguishable from malice.
-
