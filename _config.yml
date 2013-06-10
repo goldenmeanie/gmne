@@ -6,3 +6,5 @@ destination:  ./_site
 plugins:      ./_plugins
 future:       false
 permalink:    none
+timezone: America/New_York
+exclude:      [GMNE.sublime-project, GMNE.sublime-workspace]
