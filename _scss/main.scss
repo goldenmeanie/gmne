@@ -35,6 +35,9 @@ header {
     }
   }
 }
+.bigbox {
+  position: relative;
+}
 nav {
   font-size: 1.25em;
   margin: 1em 3% 0;
@@ -79,7 +82,7 @@ nav {
   }
 }
 .index {
-  margin: 1em 3% 5em;
+  margin: 1em 3% 3em;
   h2 {
     font-size: 3em;
     margin-left: 4.45em;
@@ -138,7 +141,29 @@ nav {
   a:hover {
     background: #FFEA8E;
   }
-
+}
+.elsewhere {
+  font-family: georgia;
+  margin: 1em 5%;
+  h1 {
+    color: $subdued;
+    font-size: 2em;
+    margin: 0;
+  }
+  p {
+    font-size: 1.0em;
+    line-height: 1.65;
+    margin: 0 0 1em;
+    a:link, a:visited {
+      background: #FFF4C3;
+      color: #24211c;
+      padding: .1em .2em;
+      text-decoration: none;
+    }
+    a:hover {
+      background: #FFEA8E;
+    }
+  }
 }
 .post {
   // background: #efefef;
@@ -280,6 +305,19 @@ and (min-width: 640px) {
     }
   }
 
+}
+@media screen
+and (min-width: 800px) {
+  .posts {
+    display: inline-block;
+    width: 50%;
+  }
+  .elsewhere {
+    position: absolute;
+    top: .5em;
+    left: 55%;
+    width: 35%;
+  }
 }
 @media screen
 and (min-width: 1280px) {
