@@ -85,26 +85,38 @@ nav {
     margin-left: 4.45em;
   }
   li {
-    color: rgba(0, 0, 0, .2);
+    color: $subdued;
     list-style: none;
     font-family: Populaire Regular;
     font-size: 2.5em;
-    // line-height: .75;
     margin: .5em 0;
     padding: 0;
-    span {
-      display: inline-block;
-      margin-right: .5em;
-      text-align: right;
-      width: 3.5em;
-    }
     a {
-      color: $alt-background;
-      margin-left: .5em;
+      color: $subdued;
+      display: block;
       text-decoration: none;
       &:hover {
         color: #f60;
+        .post-title {
+          color: #f60;
+        }
       }
+    }
+    .meta {
+      display: inline-block;
+      margin-right: .5em;
+      text-align: right;
+      width: 4em;
+    }
+    .post-title {
+      color: $alt-background;
+      margin-left: .5em;
+    }
+    .excerpt {
+      color: rgba(0,0,0,0.4);
+      line-height: 1em;
+      margin: 0;
+      padding-left: 9em;
     }
   }
   .excerpt {
@@ -178,7 +190,7 @@ nav {
   .breadcrumb {
     a {
       background: transparent;
-      color: #ccc;
+      color: $subdued;
       &:hover {
         color: $alt-background;
       }

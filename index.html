@@ -6,11 +6,13 @@ title: Golden Meanie
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-        <span>{{ post.date | date_to_string }}</span>
-        &raquo;
         <a href="{{ post.url }}">
-          {{ post.title }}
-          <!-- <p class="excerpt">{{ post.excerpt }}</p> -->
+          <span class="meta">{{ post.date | date_to_string }}</span>
+          &raquo;
+          <span class="post-title">{{ post.title }}</span>
+          {% if post.excerpt %}
+            <span class="excerpt">{{ post.excerpt }}</span>
+          {% endif %}
         </a>
       </li>
     {% endfor %}
