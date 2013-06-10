@@ -167,6 +167,15 @@ nav {
   img {
     width: 100%;
   }
+  .breadcrumb {
+    a {
+      background: transparent;
+      color: #ccc;
+      &:hover {
+        color: $alt-background;
+      }
+    }
+  }
 }
 footer {
   min-height: 20em;
