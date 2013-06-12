@@ -2,7 +2,7 @@
 layout: post
 title: Four Locks, One Key
 published: true
-categories: bikes
+tags: bikes
 excerpt:
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "&ndash;&ndash;&ndash;&ndash;graphics"
-categories: design
-excerpt:
+tags: design
+excerpt: No there, there
 ---
 
 ![&ndash;&ndash;&ndash;&ndash;graphic](/images/2011-11-09-noinfographic.jpg)

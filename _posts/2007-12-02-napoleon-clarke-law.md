@@ -2,7 +2,7 @@
 layout: post
 title: Napoleon-Clarke Law
 date: 2007-12-02
-excerpt:
+excerpt: Sufficiently Advanced
 ---
 
 > Any sufficiently advanced _incompetence_<br />
