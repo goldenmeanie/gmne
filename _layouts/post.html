@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div class="post">
-<h1>
-  {{ page.title }}
-  <span class="meta">{{ page.date | date_to_string }}</span>
-</h1>
-{{ content }}
-<p class="breadcrumb"><a href="/">&larr;Back Home</a></p>
-</div>
+<article class="post">
+  <h1>
+    {{ page.title }}
+    <span class="time-stamp">{{ page.date | date_to_string }}</span>
+  </h1>
+  {{ content }}
+  <p class="breadcrumb"><a href="/">&larr;Back Home</a></p>
+</article>

@@ -3,16 +3,19 @@ layout: default
 title: Golden Meanie
 ---
 <section class="index">
-  <ul class="posts">
+  <ul class="toc">
     {% for post in site.posts %}
-      <li>
+      <li class="toc-entry">
         <a href="{{ post.url }}">
-          <span class="meta">{{ post.date | date_to_string }}</span>
-          &raquo;
-          <span class="post-title">{{ post.title }}</span>
-          {% if post.excerpt %}
-            <span class="excerpt">{{ post.excerpt }}</span>
-          {% endif %}
+          <div class="title-etc">
+            <h2>
+              {{ post.title }}
+              <span class="time-stamp">{{ post.date | date_to_string }}</span>
+            </h2>
+            {% if post.excerpt %}
+              <p class="excerpt">{{ post.excerpt }}</p>
+            {% endif %}
+          </div>
         </a>
       </li>
     {% endfor %}
