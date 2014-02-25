@@ -1,0 +1,47 @@
+.index {
+  margin: 1em 3% 3em;
+  h2 {
+    font-size: 3em;
+    margin-left: 4.45em;
+  }
+  li {
+    color: $subdued;
+    list-style: none;
+    font-family: Populaire Regular;
+    font-size: 2.5em;
+    margin: .5em 0;
+    padding: 0;
+    a {
+      color: $subdued;
+      display: block;
+      text-decoration: none;
+      &:hover {
+        color: #f60;
+        .post-title {
+          color: #f60;
+        }
+      }
+    }
+  }
+}
+.toc-entry {
+  position: relative;
+  .time-stamp {
+    color: rgba(0,0,0,0.4);
+    display: inline-block;
+    font-size: .75em;
+  }
+  .title-etc {
+
+  }
+  h2 {
+    color: $alt-background;
+    font-size: 1em;
+    margin-left: 0;
+  }
+  .excerpt {
+    color: rgba(0,0,0,0.4);
+    display: none; // will reveal as page gets larger
+    line-height: 1em;
+  }
+}

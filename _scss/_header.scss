@@ -1,0 +1,17 @@
+header {
+  padding: .25em .5em 2em;
+  h1 {
+    font-size: 5em;
+    margin: .25em 3% 0;
+  }
+  a {
+    color: $meanie;
+    text-decoration: none;
+    &:visited {
+      color: $meanie;
+    }
+    &:hover {
+      color: #fa0;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+nav {
+  font-size: 1.25em;
+  margin: 1em 3% 0;
+  a {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: $meanie;
+    color: $alt-background;
+    display: inline-block;
+    font-family: Populaire Regular;
+    font-size: 1.1em;
+    margin-right: .25em;
+    padding: .15em .35em;
+    text-decoration: none;
+    &:visited {
+      color: $alt-background;
+    }
+    &:hover {
+      background: #fa0;
+      color: $alt-background;
+    }
+  }
+  .service:after {
+    content: " ›";
+  }
+  .twitter {
+    background: #45bff1;
+    color: #2a7895;
+  }
+  .dribbble {
+    background: #E86198;
+    color: #982E57;
+  }
+  .gimmebar {
+    background: #CE1C6F;
+    color: #F38FBD;
+  }
+  .pinboard {
+    background: #4482FF;
+    color: #B3CBFF;
+  }
+}

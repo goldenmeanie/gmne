@@ -1,0 +1,83 @@
+.post {
+  // background: #efefef;
+  margin: 1em 3%;
+  padding-bottom: 5em;
+  text-align: left;
+  width: 94%;
+  h1 {
+    color: $alt-background;
+    font-size: 4.5em;
+    margin: 0;
+  }
+  h2 {
+    color: $alt-background;
+    font-size: 3em;
+    margin: 0 0 .1em;
+  }
+  .time-stamp {
+    color: rgba(0,0,0,0.4);
+    display: inline-block;
+  }
+  p,
+  li {
+    color: $alt-background;
+    font-family: georgia;
+    font-size: 1.5em;
+    line-height: 1.65em;
+    margin-top: 0;
+    width: 100%;
+  }
+  ol,
+  ul {
+    margin: 1em 0;
+    padding-left: 2em;
+    li {
+      margin: 0 0 0.75em 1em;
+    }
+  }
+  blockquote p {
+    border-left: .5em solid $meanie;
+    font-size: 2em;
+    line-height: 1.25em;
+    margin: .5em 0;
+    padding-left: .5em;
+    position: relative;
+  }
+  a:link, a:visited {
+    background: #FFF4C3;
+    color: #24211c;
+    padding: .1em .2em;
+    text-decoration: none;
+  }
+  a:hover {
+    background: #FFEA8E;
+  }
+  .img-block.full-width a {
+    background: none;
+    padding: 0;
+  }
+  img {
+    width: 100%;
+  }
+  .two-up img {
+    display: inline-block;
+    width: 49%;
+  }
+  .img-block .caption {
+    font-size: 1em;
+    max-width: 100%;
+    span {
+      display: inline-block;
+      padding-right: .75em;
+    }
+  }
+  .breadcrumb {
+    a {
+      background: transparent;
+      color: $subdued;
+      &:hover {
+        color: $alt-background;
+      }
+    }
+  }
+}
