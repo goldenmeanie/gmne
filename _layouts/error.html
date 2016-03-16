@@ -1,31 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">
 
-    <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
+  {% include head.html %}
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-  </head>
   <body>
-    <header class="header">
-      <h1>
-        <a href="/">{{ site.name }}</a>
-      </h1>
-      <section class="elsewhere">
-        {% include elsewhere.html %}
-      </section>
-    </header>
+
+    {% include site-header.html %}
 
     <section class="bigbox">
 
@@ -33,10 +13,9 @@
 
     </section>
 
-    <footer class="site-footer">
-      {% include nav.html %}
-      {% include bio.html %}
-    </footer>
+    {% include site-footer.html %}
+
     {% include analytics-snippet.html %}
+
   </body>
 </html>
