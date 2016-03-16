@@ -25,14 +25,19 @@
   }
 }
 .toc-entry {
+  background-image: url('/images/web.svg');
+  background-position: center center;
+  background-size: 250%;
   position: relative;
   &:hover {
-    animation: wash 1200ms ease-in-out infinite alternate;
-    // background: red;
+    animation: spectrum 22000ms ease-in-out infinite forwards;
     h2,
     .excerpt
-      {
-      animation: pulse 1200ms ease-in-out infinite alternate;
+    {
+      color: transparentize(#333, .15);
+    }
+    .time-stamp {
+      color: transparentize(#333, .5);
     }
   }
   .time-stamp {

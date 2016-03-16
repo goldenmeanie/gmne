@@ -1,9 +1,36 @@
 @keyframes wash {
   0% {
-    background: transparentize($meanie, 1);
+    background-color: transparentize($meanie, .75);
   }
   100% {
-    background: transparentize($meanie, .75);
+    background-color: transparentize($meanie, .55);
+  }
+}
+
+@keyframes spectrum {
+  0% {
+    background-color: transparentize($meanie, .70);
+  }
+  14% {
+    background-color: transparentize(#AFD826, .70);
+  }
+  28% {
+    background-color: transparentize(#46DCDA, .70);
+  }
+  42% {
+    background-color: transparentize(#92A5CB, .70);
+  }
+  56% {
+    background-color: transparentize(#CB92BA, .70);
+  }
+  70% {
+    background-color: transparentize(#FA5C8B, .70);
+  }
+  84% {
+    background-color: transparentize(#FA5C5C, .70);
+  }
+  100% {
+    background-color: transparentize($meanie, .70);
   }
 }
 
