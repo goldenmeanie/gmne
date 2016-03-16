@@ -2,7 +2,7 @@
 layout: post
 title: Goodie Bags
 date: 2016-03-15
-
+excerpt: ""
 ---
 
 I’ve had a year with the Car Sick Designs Goodie Bag and they’ve been super flexible. I’ve run them as bar bags together and solo as a seat bag. I’ve also tried strapping them onto other bags but with mixed results. I have not put them on a belt ;).
