@@ -1,7 +1,7 @@
 name:         Golden Meanie
 highlighter:  none
 
-permalink:    title
+permalink:    none # just /[title].html
 
 sass:
   sass_dir:   _sass
