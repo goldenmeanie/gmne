@@ -2,7 +2,7 @@
 layout: post
 title: Neologism!
 date: 2007-09-30
-excerpt:
+excerpt: ""
 ---
 
 I love "collective nouns":http://en.wikipedia.org/wiki/Collective_noun — a mob of kangaroos, a pod of whales, or a murder of crows.

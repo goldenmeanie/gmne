@@ -2,7 +2,7 @@
 layout: post
 title: Spook Country
 date: 2007-08-22
-excerpt:
+excerpt: ""
 ---
 
 The book has "been":http://www.boingboing.net/2007/07/31/william-gibsons-spoo.html "all":http://www.newyorker.com/arts/reviews/brieflynoted/2007/07/23/070723crbn_brieflynoted1 "over":http://www.npr.org/templates/story/story.php?storyId=12909124 since its launch.

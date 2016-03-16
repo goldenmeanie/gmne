@@ -3,7 +3,7 @@ layout: post
 title: Four Locks, One Key
 published: true
 tags: bikes
-excerpt:
+excerpt: ""
 ---
 
 <p class="img-block">

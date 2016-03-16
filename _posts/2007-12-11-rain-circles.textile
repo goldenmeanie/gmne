@@ -2,7 +2,7 @@
 layout: post
 title: Rain Circles
 date: 2007-12-11
-excerpt:
+excerpt: ""
 ---
 
 The weather has been wacky lately (cold-warm-cold-warm) and has coated the trees with a film of ice. Yesterday had just the right temperature and wind mix to dry up the groundwater but leave the tree ice intact.
