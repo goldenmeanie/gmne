@@ -1,0 +1,17 @@
+@keyframes wash {
+  0% {
+    background: transparentize($meanie, 1);
+  }
+  100% {
+    background: transparentize($meanie, .75);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    color: #fa0;
+  }
+  100% {
+    color: #f80;
+  }
+}
